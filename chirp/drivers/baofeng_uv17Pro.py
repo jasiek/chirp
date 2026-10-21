@@ -45,7 +45,7 @@ NUMERIC_CHARS = list("0123456789")
 LIST_AB = ["A", "B"]
 LIST_BANDWIDTH = ["Wide", "Narrow"]
 LIST_HANGUPTIME = ["%s s" % x for x in [3, 4, 5, 6, 7, 8, 9, 10]]
-LIST_SIDE_TONE = ["Off", "KB Side Tone", "ANI Side Tone", "KB + ANI Side Tone"]
+LIST_SIDE_TONE = ["Off", "DT-ST", "ANI-ST", "DT+ANI"]
 LIST_PTTID = ["Off", "BOT", "EOT", "Both"]
 LIST_TIMEOUT_ALARM = ["Off"] + ["%s sec" % x for x in range(1, 11)]
 LIST_PILOT_TONE = ["1000 Hz", "1450 Hz", "1750 Hz", "2100 Hz"]
@@ -716,7 +716,7 @@ class UV17Pro(bfc.BaofengCommonHT):
                 val = 0x01
             else:
                 val = _mem.settings.voice
-            rs = RadioSetting("settings.voice", "Voice Prompt",
+            rs = RadioSetting("settings.voice", "Language",
                               RadioSettingValueList(
                                   self.LIST_VOICE, current_index=val))
             rs.set_doc(_("Selects the language of the menus and the spoken "
@@ -828,10 +828,9 @@ class UV17Pro(bfc.BaofengCommonHT):
                               LIST_SIDE_TONE,
                               current_index=_mem.settings.sidetone))
         rs.set_doc(_("Chooses which transmitted DTMF tones are also heard "
-                     "through the radio speaker. Off mutes all; KB Side Tone "
-                     "sounds manually keyed tones; ANI Side Tone sounds "
-                     "automatic ANI/PTT-ID tones; KB + ANI Side Tone sounds "
-                     "both."))
+                     "through the radio speaker. OFF mutes all; DT-ST "
+                     "sounds manually keyed tones; ANI-ST sounds automatic "
+                     "ANI/PTT-ID tones; DT+ANI sounds both."))
         basic.append(rs)
 
         rs = RadioSetting("settings.tailclear", "Tail Clear",
@@ -2546,7 +2545,10 @@ class UV5RMini(UV17Pro):
     VENDOR = "Baofeng"
     MODEL = "UV-5R Mini"
 
+    POWER_LEVELS = [chirp_common.PowerLevel("High", watts=5.00),
+                    chirp_common.PowerLevel("Low", watts=2.00)]
     LIST_BEEP = ["Off", "On"]
+    LIST_POWERON_DISPLAY_TYPE = ["Picture", "Voltage"]
     LIST_DTMFSPEED = ["%s ms" % x for x in [50, 100, 200, 300, 400, 500]]
     LIST_SKEY2_SHORT = ["FM Radio", "Scan", "Search", "VOX", "Flashlight",
                         "SOS"]
@@ -2732,6 +2734,9 @@ class UV5GMini(UV5RMini):
     ]
 
     _low_power_index = 1
+    POWER_LEVELS = [chirp_common.PowerLevel("High", watts=5.00),
+                    chirp_common.PowerLevel("Low", watts=0.50)]
+    SQUELCH_LIST = ["Off"] + list("123456789")
 
     def get_memory(self, number):
         mem = super().get_memory(number)

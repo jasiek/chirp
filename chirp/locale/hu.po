@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CHIRP\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 21:06-0400\n"
+"POT-Creation-Date: 2026-10-20 21:11-0400\n"
 "PO-Revision-Date: 2015-01-28 13:47+0100\n"
 "Last-Translator: Attila Joubert <joubert.attila@gmail.com>\n"
 "Language-Team: English\n"
@@ -818,7 +818,7 @@ msgstr ""
 msgid "Bin"
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1089
+#: ../drivers/baofeng_uv17Pro.py:1088
 msgid "Blocks use of the broadcast FM radio receiver. When it is off, the FM radio can be used as normal."
 msgstr ""
 
@@ -930,12 +930,12 @@ msgstr "Válasszon egy importálandót:"
 msgid "Chooses the startup display, such as a logo or the battery voltage."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:952
+#: ../drivers/baofeng_uv17Pro.py:951
 #, python-format
 msgid "Chooses what a long press of side key %i does."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:951
+#: ../drivers/baofeng_uv17Pro.py:950
 #, python-format
 msgid "Chooses what a short press of side key %i does."
 msgstr ""
@@ -944,11 +944,11 @@ msgstr ""
 msgid "Chooses what the SQL/RF GAIN knob controls. RF-Gain sets the gain of the receiver's RF and IF stages, Squelch mutes the receiver while no signal is present. Scanning needs Squelch, because the scanner stops on signals strong enough to open the squelch."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:858
+#: ../drivers/baofeng_uv17Pro.py:857
 msgid "Chooses what the emergency alarm does. Local sounds the alarm on this radio only, Send Tone transmits a repeating alarm tone, and Send Code transmits the digits 119 followed by the ANI code."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:900
+#: ../drivers/baofeng_uv17Pro.py:899
 msgid "Chooses where a CTCSS or DCS code found by scanning in Frequency (VFO) mode is saved: Both saves it as the receive and transmit code, RX only as the receive code, and TX only as the transmit code."
 msgstr ""
 
@@ -961,7 +961,7 @@ msgid "Chooses which knob sets the clarifier offset after CLAR is pressed: the M
 msgstr ""
 
 #: ../drivers/baofeng_uv17Pro.py:830
-msgid "Chooses which transmitted DTMF tones are also heard through the radio speaker. Off mutes all; KB Side Tone sounds manually keyed tones; ANI Side Tone sounds automatic ANI/PTT-ID tones; KB + ANI Side Tone sounds both."
+msgid "Chooses which transmitted DTMF tones are also heard through the radio speaker. OFF mutes all; DT-ST sounds manually keyed tones; ANI-ST sounds automatic ANI/PTT-ID tones; DT+ANI sounds both."
 msgstr ""
 
 #: ../wxui/query_sources.py:563
@@ -1052,7 +1052,7 @@ msgid ""
 "back of the 'TX/RX' unit. NOT the Com Port on the head.\n"
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:848
+#: ../drivers/baofeng_uv17Pro.py:847
 msgid "Controls what scanning does after finding a signal. Time resumes after a preset time, Carrier resumes after the signal disappears, and Search stops scanning on the detected frequency or channel."
 msgstr ""
 
@@ -1060,11 +1060,11 @@ msgstr ""
 msgid "Controls when the ANI code is sent: BOT when PTT is pressed, EOT when PTT is released, Both at both times, or Off."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1576
+#: ../drivers/baofeng_uv17Pro.py:1575
 msgid "Controls when this channel sends the selected DTMF PTT-ID: BOT when PTT is pressed, EOT when PTT is released, Both at both times, or Off."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1024
+#: ../drivers/baofeng_uv17Pro.py:1023
 msgid "Controls whether the radio's front-panel RESET menu is available. This does not reset the radio by itself."
 msgstr ""
 
@@ -1141,7 +1141,7 @@ msgstr ""
 msgid "Dec"
 msgstr "Érzékelés"
 
-#: ../drivers/baofeng_uv17Pro.py:891
+#: ../drivers/baofeng_uv17Pro.py:890
 msgid "Delays transmission of the automatic ANI/PTT-ID code after PTT is pressed, allowing the receiving path time to open before the code is sent."
 msgstr ""
 
@@ -1283,7 +1283,7 @@ msgstr ""
 msgid "Enabled"
 msgstr "Engedélyezve"
 
-#: ../drivers/baofeng_uv17Pro.py:866
+#: ../drivers/baofeng_uv17Pro.py:865
 msgid "Enables or disables the alarm sound."
 msgstr ""
 
@@ -1710,7 +1710,7 @@ msgstr ""
 
 #: ../drivers/ga510.py:1094 ../drivers/mml_jc8810.py:1383
 #: ../drivers/tdh8.py:2540 ../drivers/retevis_ha1g.py:1439
-#: ../drivers/uv5r.py:2249 ../drivers/baofeng_uv17Pro.py:1478
+#: ../drivers/uv5r.py:2249 ../drivers/baofeng_uv17Pro.py:1477
 msgid "Frequency in this range must not be AM mode"
 msgstr ""
 
@@ -1721,7 +1721,7 @@ msgstr ""
 #: ../drivers/ga510.py:1087 ../drivers/radtel_rt900.py:1623
 #: ../drivers/mml_jc8810.py:1380 ../drivers/tdh8.py:2537
 #: ../drivers/retevis_ha1g.py:1435 ../drivers/uv5r.py:2245
-#: ../drivers/baofeng_uv17Pro.py:1475
+#: ../drivers/baofeng_uv17Pro.py:1474
 msgid "Frequency in this range requires AM mode"
 msgstr ""
 
@@ -1775,7 +1775,7 @@ msgstr ""
 msgid "Hide empty memories"
 msgstr "Felülírja?"
 
-#: ../drivers/baofeng_uv17Pro.py:874
+#: ../drivers/baofeng_uv17Pro.py:873
 msgid "Hold the * key on the radio to lock or unlock the keypad."
 msgstr ""
 
@@ -1787,7 +1787,7 @@ msgstr ""
 msgid "Honor the CTCSS/DCS receive squelch configuration when enabled, else only carrier squelch"
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1057
+#: ../drivers/baofeng_uv17Pro.py:1056
 msgid "How long the transmitter stays keyed after you stop speaking. A longer delay avoids dropping the transmission during natural pauses in speech."
 msgstr ""
 
@@ -2207,7 +2207,7 @@ msgstr ""
 msgid "Off is level 0."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:867
+#: ../drivers/baofeng_uv17Pro.py:866
 msgid "Off keeps the alarm silent on this radio's own speaker."
 msgstr ""
 
@@ -2437,7 +2437,7 @@ msgstr ""
 msgid "Press enter to set this in memory"
 msgstr "Memória beállítási hiba"
 
-#: ../drivers/baofeng_uv17Pro.py:1568
+#: ../drivers/baofeng_uv17Pro.py:1567
 msgid "Prevents transmitting on a channel that is already in use. Pressing PTT on a busy channel sounds an alert tone instead of keying the transmitter."
 msgstr ""
 
@@ -2454,11 +2454,11 @@ msgstr ""
 msgid "Programs DTMF code %i. A channel or VFO can select this code as its PTT-ID and send it when PTT is pressed, released, or both."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:2697
+#: ../drivers/baofeng_uv17Pro.py:2699
 msgid "Programs the DTMF code sent at the beginning of a transmission (BOT)."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:2708
+#: ../drivers/baofeng_uv17Pro.py:2710
 msgid "Programs the DTMF code sent at the end of a transmission (EOT)."
 msgstr ""
 
@@ -2761,19 +2761,19 @@ msgstr ""
 msgid "Select prefixes"
 msgstr "Oszlopok kiválasztása"
 
-#: ../drivers/baofeng_uv17Pro.py:990
+#: ../drivers/baofeng_uv17Pro.py:989
 msgid "Selects Frequency (VFO) mode for direct tuning or Channel (MR) mode for programmed memories on display A."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:999
+#: ../drivers/baofeng_uv17Pro.py:998
 msgid "Selects Frequency (VFO) mode for direct tuning or Channel (MR) mode for programmed memories on display B."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1211
+#: ../drivers/baofeng_uv17Pro.py:1210
 msgid "Selects VFO A's transmitter power. Use the lowest power that provides reliable communication."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1222
+#: ../drivers/baofeng_uv17Pro.py:1221
 msgid "Selects VFO B's transmitter power. Use the lowest power that provides reliable communication."
 msgstr ""
 
@@ -2801,15 +2801,15 @@ msgstr ""
 msgid "Selects the mark tone for RTTY: 2125 Hz for high tone operation or 1275 Hz for low tone operation."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:2686
+#: ../drivers/baofeng_uv17Pro.py:2688
 msgid "Selects the special DTMF digit interpreted as a group-call wildcard by the decoder. Off assigns no group-call digit."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:2678
+#: ../drivers/baofeng_uv17Pro.py:2680
 msgid "Selects the special DTMF digit interpreted as a separator by the decoder."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1008
+#: ../drivers/baofeng_uv17Pro.py:1007
 msgid "Selects the squelch-tail elimination setting used for communication through a compatible repeater. Use 0 ms when the repeater does not support this feature."
 msgstr ""
 
@@ -2829,21 +2829,21 @@ msgstr ""
 msgid "Selects what the meter shows while transmitting: PO the average power output, ALC the relative ALC voltage, or SWR the standing wave ratio of the antenna. While receiving it always shows the signal strength."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1611
+#: ../drivers/baofeng_uv17Pro.py:1610
 msgid "Selects whether the radio uses DTMF codes, together with CTCSS or DCS, to decide when to unmute the speaker on this channel. Off unmutes it on the correct CTCSS or DCS alone."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1257
+#: ../drivers/baofeng_uv17Pro.py:1256
 #, python-format
 msgid "Selects which of the %i programmed DTMF PTT-ID codes VFO A uses. Edit the code itself under DTMF Encode Settings."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1269
+#: ../drivers/baofeng_uv17Pro.py:1268
 #, python-format
 msgid "Selects which of the %i programmed DTMF PTT-ID codes VFO B uses. Edit the code itself under DTMF Encode Settings."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1585
+#: ../drivers/baofeng_uv17Pro.py:1584
 #, python-format
 msgid "Selects which of the %i programmed DTMF PTT-ID codes this channel transmits. Edit the code itself under DTMF Encode Settings."
 msgstr ""
@@ -2852,11 +2852,11 @@ msgstr ""
 msgid "Selects which of the eleven noise reduction algorithms is used. Each one is designed for a different kind of noise, so try them in turn to find the one that best suppresses the noise currently heard. Off also turns DSP Noise Reduction off."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1233
+#: ../drivers/baofeng_uv17Pro.py:1232
 msgid "Selects wide or narrow FM for VFO A. Use Narrow where required by the channel plan to reduce interference to adjacent channels."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1245
+#: ../drivers/baofeng_uv17Pro.py:1244
 msgid "Selects wide or narrow FM for VFO B. Use Narrow where required by the channel plan to reduce interference to adjacent channels."
 msgstr ""
 
@@ -2868,19 +2868,19 @@ msgstr ""
 msgid "Service"
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1150
+#: ../drivers/baofeng_uv17Pro.py:1149
 msgid "Sets VFO A's repeater shift direction. + transmits above the receive frequency, - transmits below it, and Off uses the same frequency for transmit and receive."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1163
+#: ../drivers/baofeng_uv17Pro.py:1162
 msgid "Sets VFO B's repeater shift direction. + transmits above the receive frequency, - transmits below it, and Off uses the same frequency for transmit and receive."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1281
+#: ../drivers/baofeng_uv17Pro.py:1280
 msgid "Sets how far VFO A moves for each tuning step and while scanning in Frequency mode. Choose the spacing used by the frequencies you intend to tune."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1294
+#: ../drivers/baofeng_uv17Pro.py:1293
 msgid "Sets how far VFO B moves for each tuning step and while scanning in Frequency mode. Choose the spacing used by the frequencies you intend to tune."
 msgstr ""
 
@@ -2900,7 +2900,7 @@ msgstr ""
 msgid "Sets how long the DTMF decoder remains active after a valid code before returning to its normal state."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:882
+#: ../drivers/baofeng_uv17Pro.py:881
 msgid "Sets how long the menu stays open without a key press before the radio leaves it."
 msgstr ""
 
@@ -2932,7 +2932,7 @@ msgstr ""
 msgid "Sets the VOX sensitivity used in DIG mode, so that the audio from the data equipment switches the transmitter on without a PTT line. 0 turns VOX off in DIG mode."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1041
+#: ../drivers/baofeng_uv17Pro.py:1040
 msgid "Sets the VOX sensitivity. Too sensitive a setting keys the transmitter on the noise around the radio, too insensitive a setting fails to pick up your voice."
 msgstr ""
 
@@ -2965,11 +2965,11 @@ msgstr ""
 msgid "Sets the contrast of the display, from 1 to 24. Changing it here has not been seen to have a visible effect on the radio."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:873
+#: ../drivers/baofeng_uv17Pro.py:872
 msgid "Sets the current keypad-lock state."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1017
+#: ../drivers/baofeng_uv17Pro.py:1016
 msgid "Sets the delay before repeater squelch-tail elimination is applied. Match this timing to the repeater; use 0 ms when the feature is not required."
 msgstr ""
 
@@ -2977,11 +2977,11 @@ msgstr ""
 msgid "Sets the delay between closing the key and the carrier being transmitted in QSK operation with the built-in keyer. At 25 ms keep the CW speed at 50 wpm or below, and at 30 ms at 42 wpm or below, or the radio cannot transmit."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1186
+#: ../drivers/baofeng_uv17Pro.py:1185
 msgid "Sets the difference in MHz between VFO A's receive and transmit frequencies. The Shift setting determines whether this offset is added or subtracted."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1197
+#: ../drivers/baofeng_uv17Pro.py:1196
 msgid "Sets the difference in MHz between VFO B's receive and transmit frequencies. The Shift setting determines whether this offset is added or subtracted."
 msgstr ""
 
@@ -3013,11 +3013,11 @@ msgstr ""
 msgid "Sets the pitch of the beep the radio sounds to confirm button presses."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1130
+#: ../drivers/baofeng_uv17Pro.py:1129
 msgid "Sets the receive frequency shown on display line A in Frequency (VFO) mode."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1139
+#: ../drivers/baofeng_uv17Pro.py:1138
 msgid "Sets the receive frequency shown on display line B in Frequency (VFO) mode."
 msgstr ""
 
@@ -3396,7 +3396,7 @@ msgstr ""
 msgid "Transmits a short beep when PTT is released, before the radio returns to receive, to tell other stations that your transmission has ended."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:839
+#: ../drivers/baofeng_uv17Pro.py:838
 msgid "Transmits a special end-of-transmission signal intended to reduce the squelch burst heard by another compatible handheld."
 msgstr ""
 
@@ -3405,7 +3405,7 @@ msgstr ""
 msgid "Tuning Step"
 msgstr "Lépésköz"
 
-#: ../drivers/baofeng_uv17Pro.py:1083
+#: ../drivers/baofeng_uv17Pro.py:1082
 msgid "Turns on Bluetooth so that the radio can be programmed wirelessly from a phone app."
 msgstr ""
 
@@ -3433,7 +3433,7 @@ msgstr ""
 msgid "Turns on the built-in electronic CW keyer, for a keyer paddle plugged into the KEY jack. Turn it off to use a straight key or an external keyer."
 msgstr ""
 
-#: ../drivers/baofeng_uv17Pro.py:1619
+#: ../drivers/baofeng_uv17Pro.py:1618
 msgid "Turns on the privacy function the manual calls Encryption for this channel. Other radios can only understand the conversation if they have it turned on as well and use the same DCS code."
 msgstr ""
 
@@ -3608,7 +3608,7 @@ msgstr "Gyártó"
 msgid "View"
 msgstr "Né_zet"
 
-#: ../drivers/baofeng_uv17Pro.py:1031
+#: ../drivers/baofeng_uv17Pro.py:1030
 msgid "Voice operated transmit. The radio starts transmitting when you speak towards the microphone, so hands-free conversation is possible without pressing PTT."
 msgstr ""
 
